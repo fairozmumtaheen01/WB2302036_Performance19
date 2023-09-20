@@ -1,0 +1,23 @@
+p::first-line{
+    color:rgb(42, 165, 149);
+}
+
+p::first-letter{
+    font-size:30px;
+    color:red;
+}
+span::first-line{
+    color:red;
+}
+p.un::first-letter{
+    font-weight: bold;
+    font-size: xx-large;
+    color:blueviolet;
+}
+h1::before{
+   content:url(img.gif);
+}
+h1::after{
+    content:"I am After";
+    color:blue;
+}
